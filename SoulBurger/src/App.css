@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.wrapper-burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border: 1px solid rgb(183, 183, 183);
+
+    width: 720px;
+    border-radius: 8px;
+}
+
+.restaurant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+}
+.restaurant input {
+    background-color: whitesmoke;
+    color: black;
+    padding: 4px 4px;
+    border-radius: 8px; 
+}
+
+.soul-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(183, 183, 183);
+    padding: 20px 16px;  
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: black;
+}
